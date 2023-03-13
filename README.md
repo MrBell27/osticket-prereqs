@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. This tutorial of osTicket will be inside of a Windows 10 Microsoft Azure virtual machine. This was designed for beginners to learn how to setup and use osTicket. In a real world environment, there is going to be a little more customiztion depending on the company, so I wouldn't suggest using this tutorial to setup for an actual company, but rather to learn from.
+This is an overview of the installation process and prerequisites required for the open-source help desk ticketing system, which will be demonstrated on a Windows 10 Microsoft Azure virtual machine.
 <br />
 
 <h2>Environments and Technologies Used</h2>
@@ -47,7 +47,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
   
-We will first open Remote Desktop Connection from our computer. Make sure to copy the Public IP address from our Virtual Machine we created in Microsoft Azure and connect with RDP with your credentials. You may get a popup regarding identity verification of the remote computer not being verified, go ahead and click "Yes" to proceed.
+To begin, launch Remote Desktop Connection on your computer and connect with your credentials by copying the Public IP address from the Microsoft Azure Virtual Machine that was created; note that you may receive a popup asking to verify the identity of the remote computer, in which case you should click "Yes" to proceed.
 
 <p>
 <img src="https://i.imgur.com/Znn2VTZ.png"/>
@@ -61,7 +61,7 @@ We will first open Remote Desktop Connection from our computer. Make sure to cop
 <img src="https://i.imgur.com/SYY7Imv.png"/>    
 </p>
 
-When you log on to your virtal machine, you can mark everthing as "No" for your privacy settings. You you then want to the open up a browser and make sure you paste the following Google Drive folder link to download your installation files:
+Upon logging in to your virtual machine, you can select "No" for all privacy settings; subsequently, open your preferred browser and copy/paste the provided Google Drive folder link to download the installation files.
 **[https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)**
 
 <p>
@@ -322,4 +322,4 @@ Enter your credentials when we had set up osTicket installer previously
 </p>
 <p>
   
-Congratulations, you have made it to the end of this part of the tutorial! I will have a post installation setup tutorial link below.
+
